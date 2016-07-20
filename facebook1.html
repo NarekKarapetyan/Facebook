@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Facebook</title>
+  <link rel="stylesheet" type="text/css" href="myfb.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>
+  <script type="text/javascript" src="myfb.js"></script>
+</head>
+<body>
+  <div id="headerdiv">
+    <div id="leftheader">
+<h1>
+  <a href="https://www.facebook.com/" title="Go to the home page">facebook</a>
+  </h1>
+    </div>
+    <div id="rightheader">
+      <form id="loginform">
+        <table id="table1" cellspacing = "0" role="presentation">
+        <tbody>
+          <tr>
+              <td class="html7magic">
+                <label for="email">Email or phone number</label>
+              </td>
+                <td class="html7magic">
+                  <label for="pass">Password</label>
+                </td>
+          </tr>
+          <tr>
+            <td><input type="email"  class="inputtext" name="email" id="email" value tabindex="1"></td>
+            <td><input type="password" class="inputtext" name="pass" id="pass" value tabindex="2"></td>
+            <td><label class="uiButton uiButtonConfirm" id="loginbutton" for="u_0_m">
+            <input value="Enter" tabindex="4" type="submit" id="u_0_m"></label>
+          </td>
+          </tr>
+          <tr>
+              <td class="login_form_label_field">
+                <div>
+                  <input type="hidden" autocomplete="off" checked="1" name="persistent">
+                  <input type="hidden" name="default_persistent" value="1">
+                </td>
+                <td class="login_form_label_field">
+                  <a href="https://www.facebook.com/login/identify?ctx=recover&lwv=110">Forgot your account?</a>
+                </td>
+          </tr>
+        </tbody>
+      </table>
+      </form>
+  </div>
+</div>
+</div>
+
+<div id="middle">
+  <div id="leftmiddle">
+    <div id="textabove">
+    "Facebook helps you to stay in contact and communicate with your relatives."
+    </div>
+    <div>
+<img class="img" src="Facebook\pyNVUg5EM0j.png" alt width="537" height="195">
+    </div>
+  </div>
+
+
+  <div id="rightmiddle">
+    <div id="divabove">
+<div id="first">Registration</div>
+<div id="second">This is free and always will be so.</div>
+    </div>
+
+    <div id="regform">
+      <form id="myform" novalidate>
+        <div class ="formdiv" id="firstdiv">
+<div class="subdiv" id="namediv"><input id="nameinput"class="firstinput" class="othertypeinput" type="text" data-type="text" name="firstname" placeholder="Name"></div>
+<i id="nameimport"></i>
+<div class="subdiv" id="surnamediv"><input class="firstinput" class="othertypeinput" id="surnameinput" type="text" data-type="text" name="lastname" placeholder="Surname">
+  <i id="surnameimport"></i>
+</div>
+        </div>
+        <label for="mail">
+          <div class ="formdiv" id="maildiv"> <input  id="mail" class="secondinput" class="othertypeinput" type="email"  name="mail" placeholder="Phone number or email">
+  <i id="mailimport"></i>
+          </div>
+        </label>
+
+            <div class ="formdiv" id="repeatmaildiv"><input class="secondinput" class="othertypeinput" id="repeatmail" type="email" data-type="text" name="repeatemail" placeholder="Repeat the phone number or email"></div>
+            <i id="repeatimport"></i>
+              <div class ="formdiv" id="passworddiv"><input class="secondinput" class="othertypeinput" id="passwordinput" type="text" data-type="text" name="newpassword" placeholder="New password"></div>
+            <i id="passimport"></i>
+
+<div id="birth">Date of birth</div>
+<span id="spanbelow" data-type="selectors" >
+  <span>
+<select class="select" aria-label="Day" title="Day" aria-haspopup="true">
+<option value="0" selected="1">Day</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+</select>
+
+<select class="select" aria-label="Month" title="Month">
+<option value="0" selected="1">Month</option>
+<option value="1">Jan</option>
+<option value="2">Feb</option>
+<option value="3">March</option>
+<option value="4">Apr</option>
+<option value="5">May</option>
+<option value="6">June</option>
+<option value="7">July</option>
+<option value="8">Aug</option>
+<option value="9">Sep</option>
+<option value="10">Oct</option>
+<option value="11">Nov</option>
+<option value="12">Dec</option>
+</select>
+
+<select class="select" aria-label="Year" title="Year">
+<option value="0" selected="1">Year</option>
+</select>
+</span>
+</span>
+
+<div id="divbelow">
+<span>
+<span class="childspan">
+<input type="radio" value="1" name="sex">
+<label>Female</label>
+</span>
+<span class="childspan">
+<input type="radio" value="2" name="sex">
+<label>Male</label>
+</span>
+</span>
+</div>
+
+
+      <div id="button">
+<button type="submit" id="buttonbelow">Registration</button>
+      </div>
+</form>
+      </div>
+
+</div>
+</div>
+<div id="footer"></div>
+
+
+
+</body>
+
+
+</html>
